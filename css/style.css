@@ -1,0 +1,90 @@
+:root {
+    --primary-dark: #212529;
+    --primary-yellow: #ffc107;
+    --primary-white: #ffffff;
+}
+
+body {
+    color: var(--primary-dark);
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.btn-warning {
+    background-color: var(--primary-yellow);
+    border-color: var(--primary-yellow);
+    color: var(--primary-dark);
+    font-weight: 500;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+
+.bg-yellow {
+    background-color: var(--primary-yellow);
+}
+
+.text-yellow {
+    color: var(--primary-yellow);
+}
+
+.border-yellow {
+    border-color: var(--primary-yellow) !important;
+}
+
+/* Animations */
+.hover-scale {
+    transition: transform 0.3s ease;
+}
+
+.hover-scale:hover {
+    transform: scale(1.03);
+}
+
+.fade-element {
+    opacity: 0;
+    transform: translateY(30px) scale(0.95);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-element.visible {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+/* Cookie */
+.cookie-consent {
+    z-index: 9999;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+.cookie-consent a {
+    text-decoration: underline;
+}
+
+/* Cards hover */
+.card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0,0,0,.1) !important;
+}
+
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Object fit for images */
+.object-fit-cover {
+    object-fit: cover;
+}
