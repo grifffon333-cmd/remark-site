@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- Created with Perplexity Computer - https://www.perplexity.ai/computer -->
+<!--
+ ____                 _           _ _            ____                            _
+|  _ \ ___ _ __ _ __ | | _____  _(_) |_ _   _  / ___|___  _ __ ___  _ __  _   _| |_ ___ _ __
+| |_) / _ \ '__| '_ \| |/ _ \ \/ / | __| | | || |   / _ \| '_ ` _ \| '_ \| | | | __/ _ \ '__|
+|  __/  __/ |  | |_) | |  __/>  <| | |_| |_| || |__| (_) | | | | | | |_) | |_| | ||  __/ |
+|_|   \___|_|  | .__/|_|\___/_/\_\_|\__|\__, | \____\___/|_| |_| |_| .__/ \__,_|\__\___|_|
+               |_|                      |___/                       |_|
+-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <title>RE:MARK - Главная</title>
+    <meta name="description" content="RE:MARK - профессиональное сопровождение маркировки товаров. Генерация кодов, ввод в оборот, печать этикеток и отчёты без штрафов.">
+</head>
+<body class="d-flex bg-secondary bg-opacity-25 flex-column min-vh-100">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4 sticky-top">
+    <div class="container">
+        <a class="ms-2 navbar-brand d-flex align-items-center me-4" href="index.html">
+            <img src="img/logo1.png" alt="RE:MARK" class="rounded-3 logo-small" style="width: 45px; height: auto">
+            R<span class="text-warning">E</span>:MARK
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="about_marking.html">О маркировке</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Сервисы</a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <li>
+                            <a class="dropdown-item" href="mass_processing.html">
+                                <div>
+                                    <div class="d-flex align-items-center justify-content-between mb-1">
+                                        <span class="text-warning fw-bold">Массовая проверка КИЗ</span>
+                                        <span class="badge bg-danger rounded-pill" style="font-size: 0.6rem;">НОВОЕ</span>
+                                    </div>
+                                    <div><small class="text-white">Проверка партий товаров</small></div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Полезное</a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="utp.html"><div><div class="text-warning mb-1">Процесс работы</div><small class="text-white">Описание процессов работы с маркировкой</small></div></a></li>
+                        <li><a class="dropdown-item" href="faq.html"><div><div class="text-warning mb-1">FAQ - (Вопрос-ответ)</div><small class="text-white">Часто задаваемые вопросы о маркировке</small></div></a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Контакты</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">О нас</a></li>
+            </ul>
+            <div class="d-none d-lg-flex align-items-center">
+                <a href="tel:+79531580158" class="text-white me-3 text-decoration-none small"><i class="bi bi-telephone me-1"></i> +7 (953) 158-0-158</a>
+                <a href="mailto:remark-online@yandex.ru" class="text-warning text-decoration-none small me-3"><i class="bi bi-envelope me-1"></i> Написать</a>
+                <a href="https://wa.me/79531580158" target="_blank" class="text-white text-decoration-none fs-5 me-2"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://t.me/remark_online" target="_blank" class="text-white text-decoration-none fs-5 me-2"><i class="bi bi-telegram"></i></a>
+            </div>
+            <div class="d-lg-none ms-auto me-2">
+                <a href="tel:+79531580158" class="btn btn-dark btn-sm me-1"><i class="bi bi-telephone"></i></a>
+                <a href="mailto:remark-online@yandex.ru" class="btn btn-warning btn-sm me-1"><i class="bi bi-envelope"></i></a>
+                <a href="https://wa.me/79531580158" target="_blank" class="btn btn-dark btn-sm me-1"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://t.me/remark_online" target="_blank" class="btn btn-dark btn-sm"><i class="bi bi-telegram"></i></a>
+            </div>
+        </div>
+    </div>
+</nav>
+<main class="container my-4">
+
+<section class="py-2">
+    <div class="container">
+        <section class="hero-section text-center">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <h1 class="display-4 fw-bold mb-4">Маркировка товаров без штрафов и блокировок</h1>
+                        <p class="lead mb-4">Берём на себя «Честный ЗНАК»: коды, ввод в оборот, печать этикеток и отчёты — чтобы вы спокойно продавали и не рисковали бизнесом.</p>
+                        <div class="d-flex flex-wrap gap-3 mb-4 justify-content-center">
+                            <span class="badge bg-warning text-dark fs-6">Подключение за 3–5 дней</span>
+                            <span class="badge bg-warning text-dark fs-6">Работаем с WB, Ozon, Яндекс</span>
+                            <span class="badge bg-warning text-dark fs-6">Ответственность по договору</span>
+                        </div>
+                        <button class="btn btn-dark text-warning mb-5 btn-lg fw-bold px-4 shadow-lg fs-5" data-bs-toggle="modal" data-bs-target="#consultModal">
+                            Проверить, что нужно для маркировки <i class="bi bi-arrow-up-right-square ms-2"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</section>
+
+<!-- Блок доверия -->
+<section class="mb-3 p-4 border-start border-end border-4 border-warning rounded-3 bg-warning bg-opacity-10 rounded-end">
+    <div class="container">
+        <div class="row g-4 text-center">
+            <div class="col-md-3">
+                <div class="display-6 fw-bold text-warning">8+</div>
+                <div class="text-muted">лет практического опыта с маркировкой</div>
+            </div>
+            <div class="col-md-3">
+                <div class="display-6 fw-bold text-warning">3–5</div>
+                <div class="text-muted">дней на подключение к маркировке</div>
+            </div>
+            <div class="col-md-3">
+                <div class="display-6 fw-bold text-warning">24/7</div>
+                <div class="text-muted">техническая поддержка и сопровождение</div>
+            </div>
+            <div class="col-md-3">
+                <div class="display-6 fw-bold text-warning">300 000+</div>
+                <div class="text-muted">кодов введено без штрафов у клиентов</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Кейсы -->
+<section class="py-5" id="cases">
+    <div class="text-center mb-5">
+        <h2 class="display-5 fw-bold mb-3">Как мы помогли бизнесу</h2>
+        <p class="lead text-muted">Реальные результаты клиентов, которые воспользовались нашими услугами</p>
+    </div>
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm bg-warning bg-opacity-10">
+                <img src="img/beauty.png" class="card-img-top" alt="Интернет-магазин косметики">
+                <div class="card-body">
+                    <h3 class="h5 fw-bold">Интернет-магазин косметики</h3>
+                    <p><strong>Проблема:</strong> задержки выхода новых партий на маркетплейсы и ошибки при маркировке.<br>
+                    <strong>Решение:</strong> за 2 дня настроили генерацию кодов и подготовили готовые этикетки.<br>
+                    <strong>Результат:</strong> клиент запустил 50+ новых SKU без штрафов и простоев.</p>
+                    <ul class="list-unstyled mt-3"><li>&#10004; Подключение за 2 дня</li><li>&#10004; Печать этикеток по фирменному стилю</li><li>&#10004; Поддержка 24/7</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm bg-warning bg-opacity-10">
+                <img src="img/water.png" class="card-img-top" alt="Малое производство напитков">
+                <div class="card-body">
+                    <h3 class="h5 fw-bold">Малое производство напитков</h3>
+                    <p><strong>Проблема:</strong> трудозатраты сотрудников на отчёты и контроль кодов.<br>
+                    <strong>Решение:</strong> взяли на себя регистрацию продукции, генерацию кодов и подачу отчётов.<br>
+                    <strong>Результат:</strong> 100% точность отчётности и экономия 15 часов работы сотрудников в неделю.</p>
+                    <ul class="list-unstyled mt-3"><li>&#10004; Полный контроль оборота кодов</li><li>&#10004; Экономия времени сотрудников</li><li>&#10004; Гибкий тариф под объём производства</li></ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm bg-warning bg-opacity-10">
+                <img src="img/tech.png" class="card-img-top" alt="Онлайн-магазин электроники">
+                <div class="card-body">
+                    <h3 class="h5 fw-bold">Онлайн-магазин электроники</h3>
+                    <p><strong>Проблема:</strong> риски блокировок товаров и штрафов на маркетплейсах.<br>
+                    <strong>Решение:</strong> быстрый ввод кодов в оборот, интеграция с маркетплейсами, поддержка при проверках.<br>
+                    <strong>Результат:</strong> клиент увеличил скорость запуска новых товаров на 30% и избежал штрафов.</p>
+                    <ul class="list-unstyled mt-3"><li>&#10004; Быстрая генерация и ввод кодов</li><li>&#10004; Поддержка при проверках</li><li>&#10004; Интеграция с маркетплейсами</li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center mt-5">
+        <button class="btn btn-dark text-warning btn-lg fw-bold px-4 shadow-lg fs-5" data-bs-toggle="modal" data-bs-target="#consultModal">
+            Проверить, как мы можем помочь вашему бизнесу <i class="bi bi-arrow-up-right-square ms-2"></i>
+        </button>
+    </div>
+</section>
+
+<!-- Тарифы -->
+<section class="py-5" id="tariffs">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="display-5 fw-bold mb-3">Выберите тариф, который решит ваши задачи</h2>
+            <p class="lead text-muted">Гибкие условия для любого бизнеса — от малого до крупного</p>
+        </div>
+        <div class="row g-4">
+            <!-- Пакет кодов -->
+            <div class="col-lg-4">
+                <div class="card h-100 border-0 shadow-sm bg-warning bg-opacity-10">
+                    <div class="card-header bg-dark text-white">
+                        <h3 class="h4 mb-0">Пакет кодов</h3>
+                        <span class="small">Быстро сгенерируйте коды и начните маркировку</span>
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <div class="text-center mb-4">
+                            <span class="display-6 fw-bold">от 5 &#8381;</span>
+                            <span class="text-muted">/код</span>
+                            <div class="mt-2"><small class="text-muted">Цена снижается при увеличении объема</small></div>
+                        </div>
+                        <ul class="list-unstyled mb-4 flex-grow-1">
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i><strong>Генерация кодов DataMatrix и QR за минуты</strong></li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i><strong>Коды для &quot;Честного ЗНАКа&quot;</strong></li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i><strong>Собственные коды для акций</strong></li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Бесплатное безопасное хранение кодов</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Выгрузка в PDF, SVG, Excel для печати</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Поддержка стандартов печати (ZPL, EPL)</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Без абонплаты и скрытых платежей</li>
+                        </ul>
+                        <div class="mt-auto text-center">
+                            <button class="btn btn-dark px-4 fw-bold" data-bs-toggle="modal" data-bs-target="#orderModal" data-tariff="Пакет кодов">Начать с пакета кодов</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Сервис -->
+            <div class="col-lg-4">
+                <div class="card h-100 border-0 shadow-lg bg-warning bg-opacity-25 position-relative">
+                    <div class="card-header bg-warning text-dark">
+                        <h3 class="h4 mb-0">Сервис</h3>
+                        <span class="badge bg-dark mt-2">Для малого и среднего бизнеса</span>
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <div class="text-center mb-4">
+                            <span class="display-4 fw-bold">12 000 &#8381;</span>
+                            <span class="text-muted">/месяц</span>
+                            <div class="mt-2">или <strong>120 000 &#8381;/год</strong></div>
+                            <div class="text-success fw-bold">(экономия <span class="badge bg-success">24 000 &#8381;</span> за год)</div>
+                        </div>
+                        <ul class="list-unstyled mb-4 flex-grow-1">
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i><strong>Полная регистрация в «Честном ЗНАКе»</strong></li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Оформление кодов GS1 (под ключ)</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Создание и ведение карточек товаров</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Ежедневный ввод кодов в оборот</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Автоматические отчёты о нанесении маркировки</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Отчётность для Wildberries, Ozon, Яндекс.Маркета</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Консультации по маркировке 24/7 в чате</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Настройка базовых шаблонов этикеток</li>
+                        </ul>
+                        <div class="mt-auto text-center">
+                            <button class="btn btn-warning px-4 fw-bold" data-bs-toggle="modal" data-bs-target="#orderModal" data-tariff="Сервис">Подключить сервис</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Под ключ -->
+            <div class="col-lg-4">
+                <div class="card h-100 border-0 shadow-sm bg-warning bg-opacity-10">
+                    <div class="card-header bg-dark text-white">
+                        <h3 class="h4 mb-0">Под ключ</h3>
+                        <span class="small">Полный цикл маркировки с персональным менеджером</span>
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <div class="text-center mb-4">
+                            <span class="display-4 fw-bold">35 000 &#8381;</span>
+                            <span class="text-muted">/месяц</span>
+                        </div>
+                        <ul class="list-unstyled mb-4 flex-grow-1">
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Всё из тарифа <strong>«Сервис»</strong></li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i><strong>Персональный менеджер</strong></li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Аудит и настройка печати этикеток</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Разработка макетов упаковок с кодами</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Автоматическая подача всех отчётов</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Очное или онлайн-обучение персонала</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Контроль сроков и регулярные отчёты</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Приоритетная поддержка</li>
+                        </ul>
+                        <div class="mt-auto text-center">
+                            <button class="btn btn-dark px-4 fw-bold" data-bs-toggle="modal" data-bs-target="#orderModal" data-tariff="Под ключ">Начать тариф «Под ключ»</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <div class="alert alert-warning d-inline-block mb-0">
+                <i class="bi bi-star-fill me-2"></i>При оплате годового тарифа — <strong>бесплатная</strong> регистрация в GS1!
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Как мы работаем -->
+<section class="py-5" id="process">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="display-5 fw-bold mb-3">Как мы работаем</h2>
+            <p class="lead text-muted">Всего 5 шагов — и вы полностью соответствуете требованиям «Честного ЗНАКа»:</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4"><div class="card h-100 border-0 shadow-sm bg-warning bg-opacity-10"><div class="card-body text-center p-4"><div class="bg-warning bg-opacity-25 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width:80px;height:80px"><i class="bi bi-telephone display-6"></i></div><h3 class="h5 fw-bold">1. Заявка</h3><p><strong>Вы оставляете заявку</strong> — <strong>специалист связывается с вами в течение 15 минут</strong>.</p></div></div></div>
+            <div class="col-md-4"><div class="card h-100 border-0 shadow-sm bg-warning bg-opacity-10"><div class="card-body text-center p-4"><div class="bg-warning bg-opacity-25 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width:80px;height:80px"><i class="bi bi-search display-6"></i></div><h3 class="h5 fw-bold">2. Аудит</h3><p><strong>Мы проверяем ваши потребности</strong> — <strong>определяем, что нужно: генерация кодов, ввод, отчёты или всё вместе</strong>.</p></div></div></div>
+            <div class="col-md-4"><div class="card h-100 border-0 shadow-sm bg-warning bg-opacity-10"><div class="card-body text-center p-4"><div class="bg-warning bg-opacity-25 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width:80px;height:80px"><i class="bi bi-file-earmark-text display-6"></i></div><h3 class="h5 fw-bold">3. Договор</h3><p><strong>Заключаем прозрачный договор</strong> — <strong>фиксированная стоимость без скрытых платежей</strong>.</p></div></div></div>
+            <div class="col-md-6 col-lg-6"><div class="card h-100 border-0 shadow-sm bg-warning bg-opacity-10"><div class="card-body text-center p-4"><div class="bg-warning bg-opacity-25 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width:80px;height:80px"><i class="bi bi-gear display-6"></i></div><h3 class="h5 fw-bold">4. Настройка</h3><p><strong>Создаём коды, подключаем печать и запускаем ввод в оборот</strong> — <strong>готовый процесс маркировки без лишних хлопот</strong>.</p></div></div></div>
+            <div class="col-md-6 col-lg-6"><div class="card h-100 border-0 shadow-sm bg-warning bg-opacity-10"><div class="card-body text-center p-4"><div class="bg-warning bg-opacity-25 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width:80px;height:80px"><i class="bi bi-headset display-6"></i></div><h3 class="h5 fw-bold">5. Сопровождение</h3><p><strong>Контролируем процесс и формируем отчёты</strong> — <strong>поддержка 24/7 для вашего бизнеса</strong>.</p></div></div></div>
+        </div>
+    </div>
+</section>
+
+<!-- Почему доверяют -->
+<section class="py-5" id="about">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="display-5 fw-bold mb-3">Почему нам доверяют</h2>
+            <p class="lead text-muted">Мы делаем маркировку простой и безопасной для вашего бизнеса</p>
+        </div>
+        <div class="accordion" id="advantagesAccordion">
+            <div class="accordion-item border-0 shadow-sm mb-3 rounded bg-warning bg-opacity-10">
+                <h3 class="accordion-header"><button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#advantage1"><i class="bi bi-shield-check me-2 text-warning"></i>Прямой доступ к «Честному ЗНАКу»</button></h3>
+                <div id="advantage1" class="accordion-collapse collapse show" data-bs-parent="#advantagesAccordion"><div class="accordion-body"><strong>Работаем напрямую с ЦРПТ</strong> — гарантируем быструю обработку кодов и стабильную работу системы.</div></div>
+            </div>
+            <div class="accordion-item border-0 shadow-sm mb-3 rounded bg-warning bg-opacity-10">
+                <h3 class="accordion-header"><button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#advantage2"><i class="bi bi-currency-exchange me-2 text-warning"></i>Фиксированные цены без сюрпризов</button></h3>
+                <div id="advantage2" class="accordion-collapse collapse" data-bs-parent="#advantagesAccordion"><div class="accordion-body"><strong>Стоимость фиксирована в договоре</strong> — никакого роста тарифов или скрытых доплат.</div></div>
+            </div>
+            <div class="accordion-item border-0 shadow-sm rounded bg-warning bg-opacity-10">
+                <h3 class="accordion-header"><button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#advantage3"><i class="bi bi-patch-check me-2 text-warning"></i>Ответственность за результат</button></h3>
+                <div id="advantage3" class="accordion-collapse collapse" data-bs-parent="#advantagesAccordion"><div class="accordion-body"><strong>Берём на себя ответственность</strong> за корректность всех операций — ни один клиент не получил штрафа по нашей вине.</div></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="py-5 bg-dark text-white">
+    <div class="container text-center py-4">
+        <h2 class="display-5 fw-bold mb-3">Узнайте, сколько вы сэкономите на маркировке</h2>
+        <p class="lead mb-4 opacity-75">Получите <strong>расчёт стоимости маркировки</strong> и <strong>консультацию специалиста</strong> всего за 5 минут</p>
+        <button class="btn btn-warning btn-lg px-4 fw-bold" data-bs-toggle="modal" data-bs-target="#consultModal"><i class="bi bi-calculator me-2"></i>Рассчитать стоимость</button>
+        <div class="mt-3 small opacity-75">Или позвоните нам: <a href="tel:+79531580158" class="text-warning">+7 (953) 158-0-158</a></div>
+    </div>
+</section>
+
+</main>
+<footer class="footer mt-auto py-3 bg-dark">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h5 class="text-warning mb-1">REMARK-ONLINE.RU</h5>
+                <p class="text-white small mb-0">&copy; 2026 Все права защищены</p>
+            </div>
+            <div class="col-md-6 text-md-end mt-2 mt-md-0">
+                <div class="d-flex flex-md-row flex-column gap-2 gap-md-3 justify-content-md-end">
+                    <a href="privacy.html" class="text-white text-decoration-none">Политика конфиденциальности</a>
+                    <a href="terms.html" class="text-white text-decoration-none">Условия использования</a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-3">
+            <a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener noreferrer" class="text-muted small text-decoration-none">
+                Created with Perplexity Computer
+            </a>
+        </div>
+    </div>
+</footer>
+<div class="cookie-consent fixed-bottom bg-dark text-white py-3 d-none">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-8">
+                <p class="mb-md-0">Мы используем файлы cookie для улучшения работы сайта. Продолжая использовать сайт, вы соглашаетесь с <a href="privacy.html" class="text-white me-3">Политикой конфиденциальности</a>.</p>
+            </div>
+            <div class="col-md-4 text-md-end mt-3 mt-md-0">
+                <button class="btn btn-warning fw-bold px-4" id="acceptCookies">Принять</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="consultModal" tabindex="-1" aria-labelledby="consultModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0 shadow">
+            <div class="modal-header bg-dark text-white">
+                <h5 class="modal-title" id="consultModalLabel">Бесплатная консультация</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+            <div class="modal-body">
+                <p class="text-muted mb-4">Оставьте свои данные — наш специалист свяжется с вами в течение 15 минут</p>
+                <form id="consultForm">
+                    <div class="mb-3">
+                        <label class="form-label">Ваше имя</label>
+                        <input type="text" class="form-control" name="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Телефон</label>
+                        <input type="tel" class="form-control" name="phone" required placeholder="+7 (___) ___-__-__">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control" name="email">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Комментарий</label>
+                        <textarea class="form-control" rows="3" name="comment"></textarea>
+                    </div>
+                    <div class="form-check mb-3">
+                        <input type="checkbox" class="form-check-input" id="consultAgree" required>
+                        <label class="form-check-label small" for="consultAgree">Я согласен на обработку <a href="privacy.html">персональных данных</a></label>
+                    </div>
+                    <button type="submit" class="btn btn-warning w-100 fw-bold">Отправить заявку</button>
+                </form>
+                <div id="consultSuccess" class="text-center d-none py-4">
+                    <i class="bi bi-check-circle-fill text-success display-3"></i>
+                    <h5 class="mt-3">Заявка отправлена!</h5>
+                    <p class="text-muted">Мы свяжемся с вами в ближайшее время</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><div class="modal fade" id="orderModal" tabindex="-1" aria-labelledby="orderModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0 shadow">
+            <div class="modal-header bg-warning text-dark">
+                <h5 class="modal-title" id="orderModalLabel">Заказать услугу</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+            <div class="modal-body">
+                <p class="text-muted mb-4">Заполните форму — мы подготовим для вас индивидуальное предложение</p>
+                <form id="orderForm">
+                    <div class="mb-3">
+                        <label class="form-label">Выбранный тариф</label>
+                        <input type="text" class="form-control" name="tariff" id="orderTariffInput" readonly>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Ваше имя</label>
+                        <input type="text" class="form-control" name="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Телефон</label>
+                        <input type="tel" class="form-control" name="phone" required placeholder="+7 (___) ___-__-__">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control" name="email">
+                    </div>
+                    <div class="form-check mb-3">
+                        <input type="checkbox" class="form-check-input" id="orderAgree" required>
+                        <label class="form-check-label small" for="orderAgree">Я согласен на обработку <a href="privacy.html">персональных данных</a></label>
+                    </div>
+                    <button type="submit" class="btn btn-warning w-100 fw-bold">Оформить заявку</button>
+                </form>
+                <div id="orderSuccess" class="text-center d-none py-4">
+                    <i class="bi bi-check-circle-fill text-success display-3"></i>
+                    <h5 class="mt-3">Заявка отправлена!</h5>
+                    <p class="text-muted">Мы свяжемся с вами в ближайшее время</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
